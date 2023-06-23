@@ -1,23 +1,41 @@
 nav {
     min-height: 15vh;
     display: flex;
+    width: 90%;
+    margin: auto;
     align-items: center;
-    justify-content: space-around;
+}
+
+.nav--logo {
+    display: flex;
+    max-width: 60%;
+    flex: 1 1 40rem;
 }
 
 .nav--logo img {
-    max-width: 75%;
+    height: 55px;
+    max-width: 60%;
 }
 
-.nav--list ul {
+nav ul {
     display: flex;
-    justify-content: space-between;
+    flex: 1 1 40rem;
+    justify-content: space-around;
 
 }
 
-.nav--list ul li {
-    padding: 0px 2rem;
-    font-size: 2.5rem;
+
+
+nav ul li {
+    font-size: 2rem;
     list-style: none;
-    color: -primary;
+}
+
+.dropper {
+    font-weight: 100;
+}
+
+a{
+    color: white;
+    text-decoration: none;
 }

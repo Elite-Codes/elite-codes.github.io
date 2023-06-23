@@ -1,8 +1,9 @@
 :root{
   --primary: #7D54F0;
   --secondary: #1C3041;
-  --primary-font: white;
-  --secondary-font: rgb(0, 0, 0);
+  --primary-font-color: white;
+  --secondary-font-color: rgb(0, 0, 0);
+  --primary-font: 'Gothic A1', sans-serif;
 }
 
 *{
@@ -12,10 +13,44 @@
 }
 
 html{
-  font-size: 62.5%;
+  font-size: 62.5%; /* 1rem = 10px; 10px/16 =62.5% */
 }
 
 body{
-  background: var(--secondary);
-  color: var(--primary-font);
+  background: url(/Rectangle\ 15.png);
+  color: var(--primary-font-color);
+  font-family: var(--primary-font);
+  font-weight: 200;
 }
+
+/* Button Styling */
+
+.btn{
+  text-decoration: none;
+  padding: 1.8rem 5rem;;
+  display: inline-block;
+  transition: all .2s;
+  margin-left: 4rem;
+  border-radius: 67px;
+  background: #7D54F0;
+  color: white;
+  border: none;
+  font-size: 1.8rem;
+  
+}
+
+.btn:hover {
+  transform: translateY(-.3rem);
+  box-shadow: 0 10px 20px var(--secondary);
+}
+
+.btn::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+}
+
+.btn:active {
+  transform: translateY(-.1rem);
+  box-shadow: 0 .5rem 1rem var(--secondary);
+}
+

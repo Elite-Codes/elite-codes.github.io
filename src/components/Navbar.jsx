@@ -3,16 +3,16 @@ import './Navbar.css'
 
 export default function Navbar() {
     return(
+        <header>
         <nav>
             <div className="nav--logo"> <img src="./codeqube_logo.svg" alt="" /> </div>
-            <div className="nav--list">
                 <ul>
-                    <li>About us</li>
-                    <li>Services</li>
-                    <li>Products</li>
-                    <li>Contact us</li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Services <span className="dropper"><img src="./services drop.svg" alt="" /></span></a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Contact us</a></li>
                 </ul>
-            </div>
         </nav>
+        </header>
     )
 }

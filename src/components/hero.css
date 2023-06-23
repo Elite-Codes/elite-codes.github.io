@@ -1,0 +1,26 @@
+.hero{
+    min-height: 85vh;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.hero--text {
+    margin-bottom: 4rem;
+    margin-left: 4rem;
+}
+
+.primary-heading {
+    font-size: 6rem;
+    letter-spacing: 2.5px;
+}
+
+.secondary-heading{
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
