@@ -1,8 +1,8 @@
-import './hero.css'
+import './css/hero.css'
 
 export default function Hero(){
     return(
-        <section className='hero'>
+        <section className='hero d-flex flex-column justify-content-center align-items-start'>
             <div className="hero--text">
 
             <h1 className='primary-heading'> We Provide You Custom <br />

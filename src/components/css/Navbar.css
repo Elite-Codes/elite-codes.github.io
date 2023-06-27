@@ -1,9 +1,33 @@
 nav {
     min-height: 15vh;
-    display: flex;
     width: 90%;
     margin: auto;
-    align-items: center;
+    /* display: flex;
+
+    align-items: center; */
+}
+
+.navbar-brand img{
+    height: 55px;
+    max-width: 60%;
+}
+
+.nav-item a {
+    color: white;
+    font-family: var(--primary-font);
+    font-weight: 300;
+}
+
+.nav-item a:hover{
+    color: var(--primary);
+}
+
+
+
+
+/* .navbar ul{
+    color: var(--primary-font-color);
+    font-family: var(--primary-font);
 }
 
 .nav--logo {
@@ -22,11 +46,11 @@ nav ul {
     flex: 1 1 40rem;
     justify-content: space-around;
 
-}
+} */
 
 
 
-nav ul li {
+/* nav ul li {
     font-size: 2rem;
     list-style: none;
 }
@@ -38,4 +62,4 @@ nav ul li {
 a{
     color: white;
     text-decoration: none;
-}
+} */
