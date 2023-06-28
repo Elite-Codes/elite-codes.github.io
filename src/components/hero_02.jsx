@@ -30,24 +30,16 @@ export default function Hero02() {
       <div>
         <div className="row justify-content-around">
           <div className="col-md-4 blk text-center">
-            <div>
-              <img src="/dev icon.svg" alt="" />
-            </div>
-            <div>
-              <h4>Web design</h4>
-            </div>
-            <div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
-          </div>
-          <div className="col-md-4 blk text-center">
-            {" "}
             <img src="/dev icon.svg" alt="" />
             <h4>Web design</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </div>
           <div className="col-md-4 blk text-center">
-            {" "}
+            <img src="/dev icon.svg" alt="" />
+            <h4>Web design</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+          <div className="col-md-4 blk text-center">
             <img src="/dev icon.svg" alt="" />
             <h4>Web design</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
