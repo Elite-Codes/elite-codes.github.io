@@ -10,7 +10,7 @@ export default function Footer() {
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ipsam atque porro? Dolores, quam quisquam!</p>
                         </div>
                     <div className="col-md-3 order-3">
-                        <h3>Useful Links</h3>
+                        <h3 className='ms-4'>Useful Links</h3>
                         <ul>
                             <li><a href="#">About</a></li>
                             <li><a href="#">Blog</a></li>
@@ -20,7 +20,7 @@ export default function Footer() {
                         </ul>
                         </div>
                     <div className="col-md-3 order-2">
-                        <h3>Services</h3>
+                        <h3 className='ms-4'>Services</h3>
                         <ul>
                             <li><a href="">Website Development</a></li>
                             <li><a href="">Ecommerce Website Development</a></li>
