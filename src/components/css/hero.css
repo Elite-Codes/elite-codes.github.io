@@ -52,3 +52,12 @@
     }
 }
 
+/* Button seems moving to left a bit due to the css properties used in initital stages so manual css is set for button element in order to center accurately*/
+
+@media screen and (max-width: 576px) {
+    .button {
+        margin-bottom: 3rem;
+        margin-left: -4rem;
+    }
+}
+
