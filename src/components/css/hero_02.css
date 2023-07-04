@@ -26,3 +26,13 @@
     padding: 2rem;
     height: 46%;
 }
+
+
+
+@media screen and (max-width: 576px) {
+    .hero2--cover-text h1{
+    font-size: 3.5rem;
+    font-weight: 300;
+    margin: 4rem 0;
+    }
+}
