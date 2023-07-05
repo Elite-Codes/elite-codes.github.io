@@ -1,5 +1,5 @@
 .hero03 {
-    min-height: 100vh;
+    min-height: 50vh;
     background: white;
     color: black;
     /* background: rgb(78,19,205);
@@ -11,17 +11,15 @@
 }
 
 .hero03 h1{
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 700;
-    margin: 5rem 0;
 }
 
 .hero03--rhs {
-    min-height: 73vh;
     display: flex;
     flex-direction: column;
-    justify-content: end;
-    align-items: center;
+    justify-content: start;
+    align-items: self-start;
 }
 
 .hero03--rhs ul {
@@ -30,10 +28,11 @@
 
 .hero03--rhs ul li{
     list-style: none;
-    font-size: 2rem;
+    font-size: 1.7rem;
     font-weight: 500;
     display: flex;
     align-items: center;
+    margin: 1.2rem 0;
 }
 
 .hero03--rhs ul li img{
@@ -43,5 +42,5 @@
 
 
 .hero03--rhs .btn{
-    align-self: center;
+    align-self: self-start;
 }
