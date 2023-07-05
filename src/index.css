@@ -31,13 +31,13 @@ body{
   text-decoration: none;
   padding: 1.8rem 5rem;;
   display: inline-block;
-  transition: all .2s;
+  transition: all 500ms ease 0s;
   margin-left: 4rem;
   border-radius: 67px;
   background: linear-gradient(86deg, rgba(125,84,240,1) 55%, rgba(103,44,235,1) 95%);
   color: var(--primary-font-color);
   border: none;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   cursor: pointer;
   
 }
