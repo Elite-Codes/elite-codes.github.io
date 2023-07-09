@@ -6,6 +6,7 @@ import Hero03 from './components/hero_03'
 import Hero04 from './components/hero_04'
 import Footer from './components/footer'
 import Aboutus from './components/aboutus'
+import Form from './components/form'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <Hero03 />
       <Aboutus />
       <Hero04 />
+      <Form />
       <Footer />
     </div>
   )
