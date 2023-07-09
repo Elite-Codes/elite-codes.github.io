@@ -1,27 +1,25 @@
-import { useState } from 'react'
-import Navbar from './components/Navbar'
-import Hero from './components/hero'
-import Hero02 from './components/hero_02'
-import Hero03 from './components/hero_03'
-import Hero04 from './components/hero_04'
-import Footer from './components/footer'
-import Aboutus from './components/aboutus'
-import Form from './components/form'
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-function App() {
+import Home from "./pages/Home";
+import AboutUs from "./pages/AboutUs";
+import Projects from "./pages/Projects";
 
+export default function App() {
   return (
-    <div>
-      <Navbar />
-      <Hero />
-      <Hero02 />
-      <Hero03 />
-      <Aboutus />
-      <Hero04 />
-      <Form />
-      <Footer />
-    </div>
-  )
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="projects" element={<Projects />} />
+        <Route path="whatwedo" element={<AboutUs />}>
+          {/* <Route path="blogs" element={<Blogs />} />
+          <Route path="contact" element={<Contact />} />
+          <Route path="*" element={<NoPage />} /> */}
+        </Route>
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
-export default App
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<App />);
