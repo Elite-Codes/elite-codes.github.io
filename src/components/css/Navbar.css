@@ -15,7 +15,7 @@ nav {
 .nav-item a {
     color: white;
     font-family: var(--primary-font);
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .nav-item a:hover{
