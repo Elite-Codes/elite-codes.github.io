@@ -5,10 +5,10 @@ export default function Hero04() {
     <section className="hero04">
       <div className="container">
         <div className="row justify-content-center">
-          <div className="col-md-6">
+          <div className="hero04-img col-md-6">
             <img src="./analytics.webp" alt="" />
           </div>
-          <div className="hero04--rhs col-md-6">
+          <div className="hero04--rhs col-md-6 mt-5">
             <div className="hero04--rhs-text">
               <p className="title--wrapper">Audience source monitoring</p>
               <h2>
@@ -33,7 +33,7 @@ export default function Hero04() {
                   conversation
                 </li>
               </ul>
-              <a href="#" className="btn mx-0">
+              <a href="#" className="btn mx-0 mb-sm-5">
                 Explore more &rarr;
               </a>
             </div>

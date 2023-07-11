@@ -78,3 +78,33 @@
     color: rgb(0, 0, 0);
     font-size: 1.6rem;
 }
+
+@media screen and (max-width: 768px) {
+    .hero04--rhs {
+        text-align: center;
+    }
+    .hero04 h2 {
+        font-size: 2.5rem;
+    }
+    .title--describe {
+        font-size: 1.4rem;
+    }
+    .hero04--rhs ul li {
+        font-size: 1.3rem;
+    }
+    .hero04 img {
+        max-width: 70%;
+    }
+    .hero04-img{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .hero04--rhs a {
+        margin-bottom: 2rem;
+    }
+}
+
+
