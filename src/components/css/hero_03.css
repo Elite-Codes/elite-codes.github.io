@@ -46,6 +46,11 @@
 }
 
 @media screen and (max-width: 768px) {
+    .hero03{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
     .hero03--rhs {
         align-items: center;
         text-align: center;
@@ -53,4 +58,17 @@
     .hero03--rhs .btn {
         align-self: center;
     }
+
+    .hero03--rhs ul li {
+        font-size: 1.3rem;
+    }
+
+    .title--describe {
+        font-size: 1.4rem;
+    }
+
+    .hero03-img{
+        margin-top: 5rem;
+    }
+
 }
