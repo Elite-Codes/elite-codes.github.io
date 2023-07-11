@@ -32,3 +32,9 @@
     
 }
 
+@media screen and (max-width: 768px) {
+    .contact-con{
+        margin-top: 2rem;
+    }
+}
+
