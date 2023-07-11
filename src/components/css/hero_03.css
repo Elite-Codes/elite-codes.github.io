@@ -58,6 +58,9 @@
     .hero03--rhs .btn {
         align-self: center;
     }
+    .hero03 h1 {
+        font-size: 2.7rem;
+    }
 
     .hero03--rhs ul li {
         font-size: 1.3rem;

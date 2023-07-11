@@ -17,7 +17,7 @@ export default function Hero03() {
                             <button className="btn mx-0 hero03--btn mb-sm-5">Explore More &rarr;</button>
                         </div>
                     </div>
-                    <div className="col-md-6">
+                    <div className="hero03-img col-md-6">
                         <img src="./dashboard.webp" alt="" />
                         </div>
                 </div>
