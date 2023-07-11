@@ -44,3 +44,13 @@
 .hero03--rhs .btn{
     align-self: self-start;
 }
+
+@media screen and (max-width: 768px) {
+    .hero03--rhs {
+        align-items: center;
+        text-align: center;
+    }
+    .hero03--rhs .btn {
+        align-self: center;
+    }
+}

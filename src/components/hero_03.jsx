@@ -6,7 +6,7 @@ export default function Hero03() {
             <div className="container">
                 <div className="row">
                     <div className="hero03--rhs col-md-6">
-                        <div className="hero03--rhs d-flex justify-content-sm-center">
+                        <div className="hero03--rhs d-flex justify-content-sm-center ">
                         <h1>Keep Your Business Safe & <br />Ensure  high Availbility.</h1>
                         <p className='title--describe'>Invest in custom website design & development with marketing solutions for a successful online presence and increased traffic.</p>
                             <ul className='p-0'>
@@ -14,7 +14,7 @@ export default function Hero03() {
                                 <li><img src="./svgexport-7.svg" alt="" /> Provided by experts to help challenge activities</li>
                                 <li><img src="./svgexport-7.svg" alt="" /> Completed with peer perspectives and advice</li>
                             </ul>
-                            <button className="btn mx-0 hero03--btn">Explore More &rarr;</button>
+                            <button className="btn mx-0 hero03--btn mb-sm-5">Explore More &rarr;</button>
                         </div>
                     </div>
                     <div className="col-md-6">
