@@ -31,7 +31,26 @@ footer img{
 
 footer p{
     max-width: 70%;
-    text-align: center;
+    text-align: start;
     margin-top: 2rem;
     font-size: 1.5rem;
+}
+
+.icons{
+    margin: 2rem 0;
+}
+
+.icons img{
+    height: 40px;
+    margin: 0 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .footer-brand{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 2rem 0;
+
+    }
 }
