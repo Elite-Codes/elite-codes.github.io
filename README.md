@@ -16,13 +16,13 @@
 ## Completion Progress Useful resources
 - Landing page + Responsive - Completed
 - Service page + Responsive - Completed
-- Extra Hero Section 2 out of 3
-- Footer Done
-
+- Extra Hero Section 3 out of 3 - Completed
+- Footer - Completed
+- 
 ### Continued development
 I'd like to:
 - Give the ability to change components using react in newsletter section
-- Improve UI 
+- Improve UI - Completed
 
 ## Useful resources
 -Design File
