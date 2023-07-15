@@ -99,6 +99,15 @@
         display: flex;
         justify-content: center;
     }
+    .hero04--rhs a {
+        margin-bottom: 2rem;
+    }
+    .list-rhs {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 @media screen and (max-width: 376px) {

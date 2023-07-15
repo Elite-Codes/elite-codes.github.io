@@ -41,10 +41,6 @@ export default function Form(){
                             <label htmlFor="name" className="form-label">Name</label>
                             <input type="text" className='form-control' id='name' name='name' />
 
-                            <label htmlFor="subject" className="form-label">What is your query about?</label>
-                            <label className="form-select form-select-lg" id="subject">
-                                <input type="text" className='form-control' id='query' name='query' />
-                            </label>
 
                             <div className="mb-4 mt-5">
                             <label htmlFor="query">Your Query...</label>
