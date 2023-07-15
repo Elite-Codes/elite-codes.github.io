@@ -17,7 +17,7 @@ export default function Hero02(){
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
                 <div className="feat col-md-4">
-                    <img src="/icon_webdev.svg" alt="" />
+                    <img src="/devicon.svg" alt="" />
                     <h4 className='feat-title'>Development</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
