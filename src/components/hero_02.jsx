@@ -4,7 +4,7 @@ export default function Hero02(){
     return(
         <section className='hero02'>
             <div className="container text-center">
-            <div className="hero2--cover-text"> <h1>Software Developement & <span className='underline'>IT Services</span> </h1> </div>
+            <div className="hero2--cover-text mt-4"> <h1>Software Developement & <span className='underline'>IT Services</span> </h1> </div>
             <div className="row justify-content-around">
                 <div className="feat col-md-4">
                     <img src="/icon_design.svg" alt="" />
@@ -17,7 +17,7 @@ export default function Hero02(){
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
                 <div className="feat col-md-4">
-                    <img src="/icon_webdev.svg" alt="" />
+                    <img src="/devicon.svg" alt="" />
                     <h4 className='feat-title'>Development</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>

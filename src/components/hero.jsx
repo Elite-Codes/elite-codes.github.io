@@ -15,7 +15,7 @@ export default function Hero() {
         </p>
       </div>
       <div className="button">
-        <a href="#" className="btn btn--primary--animated">
+        <a href="#" className="btn btn--primary--animated mb-sm-5">
           Learn More
         </a>
       </div>

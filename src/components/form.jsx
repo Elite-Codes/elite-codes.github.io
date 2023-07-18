@@ -8,8 +8,14 @@ export default function Form(){
 
     const sendEmail = (e) => {
       e.preventDefault();
+      emailjs.sendForm(
+        "service_t6fh9nq",
+        "template_vwbfhg4",
+        form.current,
+        "y5Yq9sK-x5FFmSmvb" //this is my cred- waseem
+      )
   
-      emailjs.sendForm('service_y3rbzgq', 'template_vxhwkrj', form.current, 'aMONavr7EDU_LxXT8')
+    //   emailjs.sendForm('service_y3rbzgq', 'template_vxhwkrj', form.current, 'aMONavr7EDU_LxXT8') - keep this commented- use this if u want to test keep the other in code
         .then((result) => {
             console.log(result.text);
         }, (error) => {
@@ -30,22 +36,19 @@ export default function Form(){
                     <div className="col-lg-6">
                         <form ref={form} onSubmit={sendEmail}>
                             <label htmlFor="email" className="form-label">Email Address</label>
-                            <input type="email" className='form-control' id='email' name='email' placeholder='e.g mario@example.com' />
+                            <input type="email" className='form-control' id='email' name='email' />
 
                             <label htmlFor="name" className="form-label">Name</label>
-                            <input type="text" className='form-control' id='name' name='name' placeholder='e.g mario' />
+                            <input type="text" className='form-control' id='name' name='name' />
 
-                            <label htmlFor="subject" className="form-label">What is your Question?</label>
-                            <select className="form-select form-select-lg" id="subject">
-                                <option value="Pricing" selected>Pricing query</option>
-                                <option value="Content" >Content query</option>
-                                <option value="Other">Other query</option>
-                            </select>
 
-                            <div className="form-floating mb-4 mt-5">
-                                {/* <textarea name="" id="query" className='form-control' rows="3"></textarea> */}
-                                <textarea name='message' class="form-control" id="exampleFormControlTextarea1 " rows="3"></textarea>
-                                <label htmlFor="query">Your Query...</label>
+                            <div className="mb-4 mt-5">
+                            <label htmlFor="query">Your Query...</label>
+                            <textarea
+                                name="message"
+                                className="form-control"
+                                rows="3"
+                            ></textarea>
                             </div>
 
                             <div className="mb-4 text-center">
