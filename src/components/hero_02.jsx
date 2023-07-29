@@ -2,7 +2,7 @@ import './css/hero_02.css'
 
 export default function Hero02(){
     return(
-        <section className='hero02'>
+        <section className='hero02' id='services'>
             <div className="container text-center">
             <div className="hero2--cover-text mt-4"> <h1>Software Developement & <span className='underline'>IT Services</span> </h1> </div>
             <div className="row justify-content-around">

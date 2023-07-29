@@ -31,45 +31,26 @@ export default function Navbar() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
               <li className="nav-item">
-                <a className="nav-link mx-3 fs-3" aria-current="page" href="#">
+                <a className="nav-link mx-3 fs-3" aria-current="page" href="#feature">
                   About us
                 </a>
               </li>
               <li className="nav-item dropdown">
                 <a
-                  className="nav-link dropdown-toggle mx-3 fs-3"
-                  href="#"
+                  className="nav-link mx-3 fs-3"
+                  href="#services"
                   role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
                 >
                   Services
                 </a>
-                <ul className="dropdown-menu">
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Web design
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      App dvelopement
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      ERP
-                    </a>
-                  </li>
-                </ul>
               </li>
               <li className="nav-item">
                 <a className="nav-link mx-3 fs-3" href="#">
-                  Products
+                  Portfolio
                 </a>
               </li>
               <li className="nav-item">
-                <a href="#" className="nav-link mx-3 fs-3 ">
+                <a href="#contact" className="nav-link mx-3 fs-3 ">
                   Contact us
                 </a>
               </li>

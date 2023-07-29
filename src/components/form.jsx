@@ -25,7 +25,7 @@ export default function Form(){
 
 
     return(
-        <section className="contact--form d-flex align-items-center">
+        <section id='contact' className="contact--form d-flex align-items-center">
             <div className="contact-con container-lg rounded-4">
                 <div className="text-center">
                     <h2>Get in Touch</h2>
@@ -34,16 +34,35 @@ export default function Form(){
 
                 <div className="row justify-content-center my-5">
                     <div className="col-lg-6">
-                        <form ref={form} onSubmit={sendEmail}>
-                            <label htmlFor="email" className="form-label">Email Address</label>
-                            <input type="email" className='form-control' id='email' name='email' />
-
-                            <label htmlFor="name" className="form-label">Name</label>
+                        <form ref={form} id="form" onSubmit={sendEmail}>
+                            
+                        <div className="">   
+                            <label htmlFor="name" className="form-label" id="username">Name</label>
+                            <i class="fas fa-user"></i>
                             <input type="text" className='form-control' id='name' name='name' />
+                        </div> 
+                        
+
+                        <div> 
+                            <label htmlFor="email" className="form-label" id="email">Email</label>
+                            <i class="far fa-envelope"></i>
+                            <input type="email" className='form-control' id='email' name='email' />
+                            <i class="fas fa-exclamation-circle failure-icon"></i>
+                            <i class="far fa-check-circle success-icon"></i>
+                            <div class="error"></div>
+                        </div> 
+
+                        <div> 
+                        <label htmlFor="phone" className="form-label">Phone no.</label>
+                        <i class="fas fa-user"></i>
+                        <input type="tel" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" className='form-control' id='phone' name='phone' />
+                        </div> 
+
+
 
 
                             <div className="mb-4 mt-5">
-                            <label htmlFor="query">Your Query...</label>
+                            <label className="form-label" htmlFor="query">Your Query</label>
                             <textarea
                                 name="message"
                                 className="form-control"
