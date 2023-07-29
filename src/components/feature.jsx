@@ -11,22 +11,22 @@ export default function Feature(){
                     </div>
                     <div className="row justify-content-around">
                         <div className="col-md-4 feature-box">
-                            <img src="feature-1.webp" alt="" />
+                            <img src="rapidicon_team.svg" alt="" />
                             <h4>Exceptional team</h4>
                             <p>Debt bills lucrative capitalization municipal bonds government 401k bear bull credit corporate bonds called NYSE finance.</p>
                         </div>
                         <div className="col-md-4 feature-box">
-                            <img src="feature-2.webp" alt="" />
+                            <img src="rapidicon_payment.svg" alt="" />
                             <h4>Flexible payment</h4>
                             <p>Debt bills lucrative capitalization municipal bonds government 401k bear bull credit corporate bonds called NYSE finance.</p>
                         </div>
                         <div className="col-md-4 feature-box">
-                            <img src="feature-1.webp" alt="" />
+                            <img src="rapidicon_feat.svg" alt="" />
                             <h4>Prompt service</h4>
                             <p>Debt bills lucrative capitalization municipal bonds government 401k bear bull credit corporate bonds called NYSE finance.</p>
                         </div>
                         <div className="col-md-4 feature-box">
-                            <img src="feature-1.webp" alt="" />
+                            <img src="rapidicon_topnotch.svg" alt="" />
                             <h4>Top notch software</h4>
                             <p>Debt bills lucrative capitalization municipal bonds government 401k bear bull credit corporate bonds called NYSE finance.</p>
                         </div>
