@@ -10,10 +10,10 @@ export default function Form(){
     const sendEmail = (e) => {
       e.preventDefault();
       emailjs.sendForm(
-        "service_y3rbzgq",
-        "template_vxhwkrj",
+        "service_t6fh9nq",
+        "template_vwbfhg4",
         form.current,
-        "aMONavr7EDU_LxXT8" //this is my cred- waseem
+        "y5Yq9sK-x5FFmSmvb" //this is my cred- waseem
       )
   
     //   emailjs.sendForm('service_y3rbzgq', 'template_vxhwkrj', form.current, 'aMONavr7EDU_LxXT8') - keep this commented- use this if u want to test keep the other in code
@@ -61,20 +61,20 @@ export default function Form(){
                         <div className="">   
                             <label htmlFor="name" className="form-label" id="username">Name</label>
                             <i class="fas fa-user"></i>
-                            <input type="text" className='form-control' id='name' name='name' />
+                            <input type="text" className='form-control' id='name' name='name' required  />
                         </div> 
                         
 
                         <div> 
                             <label htmlFor="email" className="form-label" id="email">Email</label>
                             <i class="far fa-envelope"></i>
-                            <input type="email" className='form-control' id='email' name='email' />
+                            <input type="email" className='form-control' id='email' name='email' required  />
                         </div> 
 
                         <div> 
                         <label htmlFor="phone" className="form-label">Phone no.</label>
                         <i class="fas fa-user"></i>
-                        <input type="tel"  className='form-control' id='phone' name='phone' />
+                        <input type="tel" pattern="[0-9]*"  className='form-control' id='phone' name='phone' required />
                         </div> 
 
 
@@ -85,7 +85,7 @@ export default function Form(){
                             <textarea
                                 name="message"
                                 className="form-control"
-                                rows="3"
+                                rows="3" required
                             ></textarea>
                             </div>
 
