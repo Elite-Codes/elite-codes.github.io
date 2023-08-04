@@ -1,8 +1,10 @@
 import './css/hero_03.css'
+import Fade from 'react-reveal/Fade';
 
 export default function Hero03() {
     return(
         <section className="hero03">
+            <Fade bottom>
             <div className="container">
                 <div className="row">
                     <div className="hero03--rhs col-md-6">
@@ -22,6 +24,7 @@ export default function Hero03() {
                         </div>
                 </div>
             </div>
+            </Fade>
         </section>
     )
 }

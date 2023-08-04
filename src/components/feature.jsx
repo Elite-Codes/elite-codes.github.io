@@ -1,8 +1,10 @@
 import './css/feature.css'
+import Fade from 'react-reveal/Fade';
 
 export default function Feature(){
     return(
         <section id='feature' className="feature-section">
+            <Fade left>
             <div className="container-fluid feat-contain">
                 <div className="container contents-contain">
                     <div className="contents-contain-text">
@@ -33,6 +35,7 @@ export default function Feature(){
                     </div>
                 </div>
             </div>
+            </Fade>
         </section>
     )
 }

@@ -2,6 +2,7 @@ import '../components/css/Projects.css'
 import Navbar from "../components/Navbar";
 import Footer from "../components/footer";
 
+
 function Projects() {
 
 

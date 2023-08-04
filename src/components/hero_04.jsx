@@ -1,8 +1,10 @@
 import "./css/hero_04.css";
+import Fade from 'react-reveal/Fade';
 
 export default function Hero04() {
   return (
     <section className="hero04">
+      <Fade bottom>
       <div className="container">
         <div className="row justify-content-center">
           <div className="hero04-img col-md-6">
@@ -40,6 +42,7 @@ export default function Hero04() {
           </div>
         </div>
       </div>
+      </Fade>
     </section>
   );
 }

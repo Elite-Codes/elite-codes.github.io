@@ -1,10 +1,12 @@
 import './css/hero_02.css'
+import Fade from 'react-reveal/Fade';
 
 export default function Hero02(){
     return(
         <section className='hero02' id='services'>
+            <Fade bottom>
             <div className="container text-center">
-            <div className="hero2--cover-text mt-4"> <h1>Software Developement & <span className='underline'>IT Services</span> </h1> </div>
+            <div className="hero2--cover-text mt-4"> <h1>Software Development & <span className='underline'>IT Services</span> </h1> </div>
             <div className="row justify-content-around">
                 <div className="feat col-md-4">
                     <img src="/icon_design.svg" alt="" />
@@ -40,6 +42,7 @@ export default function Hero02(){
                 </div>
             </div>
             </div>
+            </Fade>
         </section>
     )
 }
