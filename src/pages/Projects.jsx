@@ -1,5 +1,6 @@
 import '../components/css/Projects.css'
 import Navbar from "../components/Navbar";
+import Footer from "../components/footer";
 
 function Projects() {
 
@@ -12,7 +13,7 @@ function Projects() {
     <section className="projects">
     {/* <!-- title --> */}
       <div class="title">
-        <h2>Our Projets</h2>
+        <h2>Our Projects</h2>
         <div class="underline"></div>
       </div>
       <div className="section-center">
@@ -72,6 +73,7 @@ function Projects() {
         </article>
       </div>
     </section>
+    <Footer />
     </div>
   );
 }
