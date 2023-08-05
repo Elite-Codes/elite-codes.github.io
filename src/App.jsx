@@ -4,6 +4,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import AboutUs from "./pages/AboutUs";
 import Projects from "./pages/Projects";
+//<-- components for schdule call main page call to action -->
+import Callus from "./pages/callus";
 //<-- components for navbar routing -->
 import Contacts from "../src/components/form";
 import Services from "../src/components/hero_02";
@@ -15,6 +17,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="projects" element={<Projects />} />
+        <Route path="callus" element={<Callus />} />
         <Route path="whatwedo" element={<AboutUs />}>
           {/* <Route path="blogs" element={<Blogs />} />
           <Route path="contact" element={<Contact />} />

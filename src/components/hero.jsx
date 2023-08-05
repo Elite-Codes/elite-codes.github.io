@@ -1,5 +1,6 @@
 import "./css/hero.css";
 import Fade from 'react-reveal/Fade';
+import { Link } from "react-router-dom";
 
 export default function Hero() {
   return (
@@ -17,9 +18,9 @@ export default function Hero() {
         </p>
       </div>
       <div className="button">
-        <a href="#" className="btn btn--primary--animated mb-sm-5">
+        <Link to="/callus" href="#" className="btn btn--primary--animated mb-sm-5">
           Learn More
-        </a>
+        </Link>
       </div>
       </Fade>
     </section>
