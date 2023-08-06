@@ -2,8 +2,8 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Home from "./pages/Home";
-import AboutUs from "./pages/AboutUs";
 import Projects from "./pages/Projects";
+import Callus from "./pages/callus";
 
 export default function App() {
   return (
@@ -11,11 +11,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="projects" element={<Projects />} />
-        <Route path="whatwedo" element={<AboutUs />}>
-          {/* <Route path="blogs" element={<Blogs />} />
-          <Route path="contact" element={<Contact />} />
-          <Route path="*" element={<NoPage />} /> */}
-        </Route>
+        <Route path="contact" element={<Callus />} />
       </Routes>
     </BrowserRouter>
   );

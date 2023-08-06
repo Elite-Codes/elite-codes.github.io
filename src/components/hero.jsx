@@ -1,8 +1,11 @@
 import "./css/hero.css";
+import Fade from 'react-reveal/Fade';
+import { Link } from "react-router-dom";
 
 export default function Hero() {
   return (
     <section className="hero d-flex flex-column justify-content-center">
+      <Fade bottom>
       <div className="hero--text">
         <h1 className="primary-heading">
           {" "}
@@ -15,10 +18,11 @@ export default function Hero() {
         </p>
       </div>
       <div className="button">
-        <a href="#" className="btn btn--primary--animated mb-sm-5">
+        <Link to="/callus" href="#" className="btn btn--primary--animated mb-sm-5">
           Learn More
-        </a>
+        </Link>
       </div>
+      </Fade>
     </section>
   );
 }
