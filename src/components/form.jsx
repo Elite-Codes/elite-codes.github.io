@@ -100,7 +100,7 @@ export default function Form() {
               </div>
 
               <div className="mb-4 mt-5">
-                <label className="form-label" htmlFor="query">
+                <label className="form-label p-1" htmlFor="query">
                   Your Query
                 </label>
                 <textarea

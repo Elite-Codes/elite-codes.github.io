@@ -22,6 +22,8 @@
     padding: 1rem 3.8rem;
     margin-bottom: 1rem;
     font-size: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px 1px grey
 }
 
 .failure-icon,

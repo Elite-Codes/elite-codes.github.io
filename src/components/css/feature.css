@@ -25,6 +25,7 @@
     font-size: 4.5rem;
     font-weight: 600;
     margin: 2rem 0;
+    width: 75%;
 }
 .contents-contain p{
     font-size: 1.8rem;
@@ -53,4 +54,26 @@
 .feature-box p{
     font-size: 1.6rem;
     font-weight: 300;
+}
+@media screen and (max-width: 768px) {
+    .contents-contain h1{
+        font-size: 3rem;
+        font-weight: 600;
+        margin: 2rem 0;
+        width: 100%;
+    }
+    .contents-contain p{
+        font-size: 1.6rem;
+        margin: 2rem 0;
+    }
+    .feature-box h4{
+        align-self: center;
+        margin: 1.6rem 0;
+        font-size: 1.6rem;
+        font-weight: 600;
+    }
+    .feature-box p{
+        font-size: 1.5rem;
+        font-weight: 300;
+    }
 }

@@ -8,7 +8,7 @@ export default function Feature() {
       <Fade left>
         <div className="container-fluid feat-contain">
           <div className="container contents-contain">
-            <div className="contents-contain-text w-75">
+            <div className="contents-contain-text">
               <h1>{contents.feature[1]}</h1>
               <p>{contents.feature[2]}</p>
             </div>
