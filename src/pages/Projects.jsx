@@ -1,80 +1,37 @@
-import '../components/css/Projects.css'
+import { useState } from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/footer";
-
+import contents from "../contents.json";
+import "../components/css/Projects.css";
 
 function Projects() {
-
-
-
+  const [projects] = useState(contents.projects);
 
   return (
-    <div className="">
-    <Navbar />
-    <section className="projects">
-    {/* <!-- title --> */}
-      <div class="title">
-        <h2>Our Projects</h2>
-        <div class="underline"></div>
-      </div>
-      <div className="section-center">
-      {/* <!-- single item --> */}
-      <article class="menu-item">
-          <img src="./project-03-90a4795a.jpg" alt="menu item" class="photo" />
-          <div class="item-info">
-            <header>
-              <h4>Streameo - Movie Website</h4>
-            </header>
-            <p class="item-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Repudiandae, sint quam. Et reprehenderit fugiat nesciunt inventore
-              laboriosam excepturi! Quo, officia.
-            </p>
-          </div>
-        </article>
-        {/* <!-- end of single item --> */}
-        <article class="menu-item">
-          <img src="./project-02-3100ce66.jpg" alt="menu item" class="photo" />
-          <div class="item-info">
-            <header>
-              <h4>Lofi - A Music App For Focus And Motivation</h4>
-            </header>
-            <p class="item-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Repudiandae, sint quam. Et reprehenderit fugiat nesciunt inventore
-              laboriosam excepturi! Quo, officia.
-            </p>
-          </div>
-        </article>
-        <article class="menu-item">
-          <img src="./project-02-3100ce66.jpg" alt="menu item" class="photo" />
-          <div class="item-info">
-            <header>
-              <h4>The Quote</h4>
-            </header>
-            <p class="item-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Repudiandae, sint quam. Et reprehenderit fugiat nesciunt inventore
-              laboriosam excepturi! Quo, officia.
-            </p>
-          </div>
-        </article>
-        <article class="menu-item">
-          <img src="./project-02-3100ce66.jpg" alt="menu item" class="photo" />
-          <div class="item-info">
-            <header>
-              <h4>The Quote</h4>
-            </header>
-            <p class="item-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Repudiandae, sint quam. Et reprehenderit fugiat nesciunt inventore
-              laboriosam excepturi! Quo, officia.
-            </p>
-          </div>
-        </article>
-      </div>
-    </section>
-    <Footer />
+    <div>
+      <Navbar />
+      <section className="projects pb-3">
+        <div className="title">
+          <h2>Our Projects</h2>
+          <div className="underline"></div>
+        </div>
+        <div className="row">
+          {projects.map((e, i) => {
+            return (
+              <article key={i} className="col-md-6 p-m-5">
+                <img src={e.src} alt="menu item" className="photo" />
+                <div className="item-info w-75">
+                  <header className="justify-content-center my-3">
+                    <h4>{e.title}</h4>
+                  </header>
+                  <p className="item-text text-center">{e.desc}</p>
+                </div>
+              </article>
+            );
+          })}
+        </div>
+      </section>
+      <Footer />
     </div>
   );
 }

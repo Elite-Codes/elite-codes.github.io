@@ -1,0 +1,45 @@
+{
+    "feature": {
+        "1":"Codeqube provides everything you need to build a beautiful website for your SaaS",
+        "2":"Receive dividends bull investment mutual funds rise federal funds strategy substantially treasury municipal public index funds.",
+        "3":"Exceptional team",
+        "4":"Debt bills lucrative capitalization municipal bonds government 401k bear bull credit corporate bonds called NYSE finance.",
+        "5":"Flexible Payments"
+    },
+    "projects":[
+        {
+          "src": "./project-03-90a4795a.jpg",
+          "title": "Streameo - Movie Website",
+          "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit Repudiandae, sint quam. Et reprehenderit fugiat nesciunt inventore laboriosam excepturi! Quo, officia."
+        },
+        {
+          "src": "./project-02-3100ce66.jpg",
+          "title": "Lofi - A Music App For Focus And Motivation",
+          "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit Repudiandae, sint quam. Et reprehenderit fugiat nesciunt inventore laboriosam excepturi! Quo, officia."
+        },
+        {
+          "src": "./project-03-90a4795a.jpg",
+          "title": "The Quote",
+          "desc": "uwsh sihsiwjie exijxeixj"
+        },
+        {
+          "src": "./project-02-3100ce66.jpg",
+          "title": "The quote 2",
+          "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit Repudiandae, sint quam. Et reprehenderit fugiat nesciunt inventore laboriosam excepturi! Quo, officia."
+        }
+      ],
+      "profile":[
+        {
+            "name":"waseem",
+            "tel-1":"+44 7384182486",
+            "tel-2":"+91 7907842451",
+            "avatar":"https://avatars.githubusercontent.com/u/53007599?s=400&u=e523633a9b096396748fd8d647a2efb792db7838&v=4"
+        },
+        {
+            "name":"waseem",
+            "tel-1":"+44 7384182486",
+            "tel-2":"+91 7907842451",
+            "avatar":"https://avatars.githubusercontent.com/u/53007599?s=400&u=e523633a9b096396748fd8d647a2efb792db7838&v=4"
+        }
+      ]
+}

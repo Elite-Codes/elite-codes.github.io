@@ -4,7 +4,7 @@ import Hero02 from "../components/hero_02";
 import Hero03 from "../components/hero_03";
 import Hero04 from "../components/hero_04";
 import Footer from "../components/footer";
-import Aboutus from "../components/aboutus";
+// import Aboutus from "../components/aboutus";
 import Form from "../components/form";
 import Feature from "../components/feature";
 
@@ -16,7 +16,7 @@ export default function Home() {
       <Hero02 />
       <Feature />
       <Hero03 />
-      <Aboutus />
+      {/* <Aboutus /> */}
       <Hero04 />
       <Form />
       <Footer />
