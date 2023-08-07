@@ -6,11 +6,13 @@ export default function Navbar() {
     <header>
       <nav className="navbar navbar-expand-lg">
         <div className="container-fluid ">
-          <Link to="/">
+          
             <a className="navbar-brand  flex-grow-1 ms-4" href="#">
+            <Link to="/">
               <img src="./codeqube_logo.svg" alt="" />
+              </Link>
             </a>
-          </Link>
+          
           <button
             className="navbar-toggler"
             type="button"
