@@ -50,6 +50,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: -1px;
+    margin-bottom: -1px;
     }
     .hero03--rhs {
         align-items: center;

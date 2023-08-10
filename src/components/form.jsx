@@ -105,7 +105,7 @@ export default function Form() {
                 </label>
                 <textarea
                   name="message"
-                  className="form-control"
+                  className="form-control p-2"
                   rows="3"
                   required
                 ></textarea>
